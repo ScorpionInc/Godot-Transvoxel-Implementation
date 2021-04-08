@@ -6,8 +6,8 @@ extends Node
 
 #Variables
 const regularCellClass:ByteArray = []
-var regularCellData
-var regularVertexData
+const regularCellData:Array = []#<RegularCellData>
+const regularVertexData:Array = []
 var transitionCellClass
 
 #Overrides/Implements
