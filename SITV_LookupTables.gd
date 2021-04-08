@@ -5,7 +5,7 @@ extends Node
 #Lengyel, Eric. “Voxel-Based Terrain for Real-Time Virtual Simulations”. PhD diss., University of California at Davis, 2010
 
 #Variables
-var regularCellClass
+const regularCellClass:ByteArray = []
 var regularCellData
 var regularVertexData
 var transitionCellClass
