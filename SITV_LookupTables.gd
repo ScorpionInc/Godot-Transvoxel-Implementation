@@ -22,8 +22,23 @@ const regularCellClass:Array = [
 	0x04, 0x0B, 0x07, 0x0E, 0x0C, 0x04, 0x0F, 0x0D, 0x0A, 0x0E, 0x0E, 0x02, 0x04, 0x03, 0x0D, 0x01,
 	0x04, 0x07, 0x0A, 0x0E, 0x0B, 0x0E, 0x0E, 0x02, 0x0C, 0x0F, 0x04, 0x0D, 0x04, 0x0D, 0x03, 0x01,
 	0x03, 0x04, 0x04, 0x03, 0x04, 0x03, 0x0D, 0x01, 0x04, 0x0D, 0x03, 0x01, 0x03, 0x01, 0x01, 0x00]
-const regularCellData:Array = [
-	
+var regularCellData:Array = [
+	RegularCellData.new(0x00, []),
+	RegularCellData.new(0x31, [0, 1, 2]),
+	RegularCellData.new(0x62, [0, 1, 2, 3, 4, 5]),
+	RegularCellData.new(0x42, [0, 1, 2, 0, 2, 3]),
+	RegularCellData.new(0x53, [0, 1, 4, 1, 3, 4, 1, 2, 3]),
+	RegularCellData.new(0x73, [0, 1, 2, 0, 2, 3, 4, 5, 6]),
+	RegularCellData.new(0x93, [0, 1, 2, 3, 4, 5, 6, 7, 8]),
+	RegularCellData.new(0x84, [0, 1, 4, 1, 3, 4, 1, 2, 3, 5, 6, 7]),
+	RegularCellData.new(0x84, [0, 1, 2, 0, 2, 3, 4, 5, 6, 4, 6, 7]),
+	RegularCellData.new(0xC4, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]),
+	RegularCellData.new(0x64, [0, 4, 5, 0, 1, 4, 1, 3, 4, 1, 2, 3]),
+	RegularCellData.new(0x64, [0, 5, 4, 0, 4, 1, 1, 4, 3, 1, 3, 2]),
+	RegularCellData.new(0x64, [0, 4, 5, 0, 3, 4, 0, 1, 3, 1, 2, 3]),
+	RegularCellData.new(0x64, [0, 1, 2, 0, 2, 3, 0, 3, 4, 0, 4, 5]),
+	RegularCellData.new(0x75, [0, 1, 2, 0, 2, 3, 0, 3, 4, 0, 4, 5, 0, 5, 6]),
+	RegularCellData.new(0x95, [0, 4, 5, 0, 3, 4, 0, 1, 3, 1, 2, 3, 6, 7, 8])
 ]#<RegularCellData>
 const regularVertexData:Array = [
 	
