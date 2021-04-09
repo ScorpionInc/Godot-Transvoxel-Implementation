@@ -10,6 +10,9 @@ var geometryCounts:int    # High nibble is vertex count, low nibble is triangle 
 var vertexIndex:Array     # Groups of 3 indexes giving the triangulation.
 
 #Overrides/Implementations
+func _init( b:int, a:Array ) -> void:
+	geometryCounts = b
+	self.vertexIndex = a.duplicate(true)#duplicate(deep)
 func _ready() -> void:
 	self.set_process(false)
 
